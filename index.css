@@ -1,0 +1,414 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.schedule{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #000;
+    padding-top: .3%;
+    padding-bottom: .3%;
+}
+.schedule-box-one{
+    width: 33%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.schedule-box-two{
+    width: 11%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.schedule-title{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #969696;
+}
+.schedule-icon-one{
+    width: 3%;
+    height: 55%;
+    margin-top: 1%;
+}
+.schedule-icon-two{
+    margin-top: 4%;
+    width: 11%;
+    height: 55%;
+}
+.schedule-column{
+    width: .1%;
+    padding-top: .1%;
+    border-color: #969696;
+    background-color: #969696;
+}
+.navigate{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #0F0F0F;
+}
+.navigate-title{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: #FFF;
+}
+.navigate-box{
+    width: 44%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+}
+.navigate-item{
+    width: 22%;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #969696;
+    list-style-type: none;
+    text-transform: uppercase;
+    padding-top: 6%;
+}
+.navigate-item:hover{
+    background-color: #1F1F1F;
+    color: #FFF;
+}
+.navigate-icon{
+    width: 3%;
+    height: 22%;
+    padding-top: 6%;
+}
+.face{
+    width: 100%;
+    height: 100%;
+    background-image: url(./images/rectangle-1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+.face-box{
+    width: 18%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    border: 4px solid #FFF;
+    margin: auto;
+}
+.face-text{
+    width: 50%;
+    margin: auto;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: #FFF;
+    text-align: center;
+    margin-top: 8%;
+}
+.season{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.season-box-one{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    background-color: #000;
+}
+.season-title{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #FFF;
+    text-align: center;
+}
+.season-line{
+    width: 10%;
+    padding-top: .1%;
+    padding-bottom: .1%;
+    background-color: #FFF;
+    border-color: #FFF;
+    margin: auto;
+}
+.season-row{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 8%;
+}
+.season-case{
+    width: 26%;
+    display: flex;
+    flex-direction: column;
+}
+.season-image{
+    width: 100%;
+    padding-top: 22%;
+    padding-bottom: 22%;
+    background-color: #191B1C;
+}
+.season-name{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFF;
+}
+.season-price{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFF;
+}
+.season-box-two{
+    width: 50%;
+    background-image: url(./images/sit.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 8%;
+}
+.season-click{
+    width: 22%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-color: transparent;
+    border-color: #FFF;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFF;
+    text-transform: uppercase;
+    margin-left: 39%;
+    margin-top: 8%;
+    border-radius: 4px;
+}
+.wear{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: #000;
+}
+.wear-box{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.wear-title{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #FFF;
+    text-align: center;
+    margin-top: 11%;
+}
+.wear-line{
+    width: 10%;
+    padding-top: .1%;
+    padding-bottom: .1%;
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 44%;
+}
+.wear-text{
+    width: 66%;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFF;
+    margin-left: 15%;
+    margin-top: 6%;
+    text-align: center;
+}
+.wear-click{
+    width: 33%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-color: transparent;
+    border-color: #FFF;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFF;
+    text-transform: uppercase;
+    margin-left: 36%;
+    margin-top: 8%;
+    border-radius: 4px;
+}
+.supply{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #000;
+}
+.supply-title{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #FFF;
+    text-align: center;
+    margin-top: 11%;
+}
+.supply-row{
+    width: 77%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 5%;
+}
+.supply-box{
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+}
+.supply-case{
+    width: 100%;
+    background-color: #191B1C;
+    padding-top: 22%;
+    padding-bottom: 22%;
+}
+.supply-name{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFF;
+}
+.supply-price{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFF;
+}
+.mark{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #0F0F0F;
+    padding-bottom: 4%;
+}
+.mark-title{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #FFF;
+    text-align: center;
+    margin-top: 11%;
+}
+.mark-line{
+    width: 10%;
+    padding-top: .1%;
+    padding-bottom: .1%;
+    background-color: #FFF;
+    border-color: #FFF;
+    margin-left: 45%;
+}
+.mark-logos{
+    width: 77%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 4%;
+}
+.more{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-image: url(./images/background.png);
+    padding-bottom: 4%;
+}
+.more-box{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+.more-title{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFF;
+    text-transform: uppercase;
+    margin-top: 8%;
+}
+.more-text{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFF;
+    margin-top: 4%;
+}
+.categories{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.category{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #D0D0D0;
+    background-color: #0F0F0F;
+    border-color: #0F0F0F;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-top: 3%;
+}
+.more-form{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 4%;
+}
+.enter{
+    background-color: rgba(255, 255, 255, 0.4);
+    border-color: rgba(255, 255, 255, 0.4);
+    color: #FFF;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    padding-left: 2%;
+}
+.enter::placeholder{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFF;
+}
+.register{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    background-color: #000;
+    color: #FFF;
+    text-transform: uppercase;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.floor{
+    width: 100%;
+    background-color: #000;
+    text-align: center;
+    color: #FFF;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
